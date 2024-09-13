@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This Model aims to do real-time crime detection using OpenCV and FasterRCNN_resnet50_fpn. The main motive is to loop over each image that passed through this model and detect a "Crime_Activity" if found any possible crime_activity just bound that detection in a box. 
+This Model aims to do real-time crime detection using OpenCV and FasterRCNN_resnet50_fpn. The main motive is to loop over each image that passed through this model and detect a "Crime_Activity" if model captures crime_activity just bound that detection in a box. 
 
 ### Requirements
 #### Install Libraries :
