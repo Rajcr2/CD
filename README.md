@@ -19,7 +19,7 @@ This Model aims to do real-time crime detection using OpenCV and FasterRCNN_resn
 
 #### Example -
 
-<img src="Screenshot 2024-09-10 224128.jpg" >
+<img src="images/Screenshot 2024-09-10 224128.jpg" >
 
 <src = "https://github.com/user-attachments/assets/5ec5a9e9-8c17-42ca-a333-a57a8f67d40b)" >
 
