@@ -7,9 +7,9 @@ This Model aims to do real-time crime detection using OpenCV and FasterRCNN_resn
 ### Requirements
 #### Install Libraries :
 
-• Opencv-python --> Version = 4.8.0.74
+• Opencv-python
 
-• Numpy --> version = 1.26.4
+• Numpy
 
 • Torch and Torvision (latest version)
 
