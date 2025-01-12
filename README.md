@@ -42,7 +42,7 @@ Other Utility Libraries : **Matplotlib**, **glob2**, **tqdm**, **albumentations*
 4.   Clone this Repository :
 
    ```
-   git clone https://github.com/RJ2ndgit/NGAIF-Stories_Chatbot.git
+   https://github.com/Rajcr2/CD.git
    ```
 5.   Now, Install all mentioned required libraries in your environment.
 6.   After, that Run **'engine.py'** file from Terminal. To train the model it will take time but make sure that model is not overfitting.
