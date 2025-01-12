@@ -1,33 +1,66 @@
-# Crime Detection with PyTorch Faster RCNN
+# Conversational CHATBOT for NGAIF-Stories Application.
 
 ## Introduction
 
-This Model aims to do real-time crime detection using OpenCV and FasterRCNN_resnet50_fpn. The main motive is to loop over each image that passed through this model and detect a "Crime_Activity" if model captures crime_activity just bound that detection in a box. 
+This is my Internship project. I have created a chatbot for NGAIF-Stories Application to improve user experience and make app more interactive. 
+This stories app developed by Nextgen AI frameworks for story lovers who crave diversity and accesibility in their reading experience.
 
-### Requirements
-#### Install Libraries :
+Play Store Link -> https://play.google.com/store/apps/details?id=com.ngaif.stories
 
-• Opencv-python
+### Prerequisites
+To run this project, you need to install the following libraries:
+### Required Libraries
 
-• Numpy
+- **Python 3.12+**
+- **NLTK**: This NLP toolkit consist of comprehensive libraries which work with human language data.
+- **Tensorflow**: Consist of tools, libraries which are used to train and deploy machine learning model.
+- **Flask**: Flask is a lightweight and flexible web framework for Python, designed to make it easy to build web applications quickly. 
 
-• Torch and Torvision (latest version)
+Other Utility Libraries : **json**, **pickle**, **numpy**, **random**.
 
-• Matplotlib, glob2, tqdm, albumentations (latest version)
+### Installation
 
-## Results
+   ```
+   pip install nltk
+   pip install tensorflow
+   pip install Flask
+   pip install numpy
+   pip install json
+   pip install pickle
+   ```
 
-#### Example -
-<img src="images/crime3_jpg.rf.f7c0d28240599a6871204a66f123f065.jpg" >
+### Procedure
 
-#### Prediction -
-<img src="images/Screenshot 2024-09-10 224128.jpg" >
+1.   Create new directory **'Stories_Chatbot'**.
+2.   Inside that directory/folder create new environment.
+   
+   ```
+   python -m venv chatbot
+   ```
 
-#### Example (2) -
-<img src="images/sharpw_3_jpg.rf.b7207b91aa26c1225c2893bbd461f64f.jpg" >
+  Now, activate this **'chatbot'** venv.
+  
+4.   Clone this Repository :
 
-#### Prediction -
-<img src="images/Screenshot 2024-09-10 224220.jpg" >
+   ```
+   git clone https://github.com/RJ2ndgit/NGAIF-Stories_Chatbot.git
+   ```
+5.   Now, Install all mentioned required libraries in your environment.
+6.   After, that Run **'main.py'** file from Terminal. To train the model.
+   ```
+   python main.py
+   ``` 
+7.   After, Model Training completed just Run the **'stories_app.py'** file and check the output in the browser.
+   ```
+   python stories_app.py
+   ```
 
+
+
+
+
+### Output
+
+https://github.com/user-attachments/assets/321f36d7-521a-4ce7-8e10-32973aa38f5e
 
 
