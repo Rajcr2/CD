@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This model aims to do real-time crime detection using OpenCV and FasterRCNN_resnet50_fpn. The main motive is to loop over each image that passed through this model and if model detects a **"Crime_Activity"** just bound that detection in bbox.
+This project implements an object detection pipeline using **Faster R-CNN (ResNet-50 FPN backbone)** to detect and classify crime-related activities from surveillance footage.
+The pipeline includes model training, evaluation, and inference visualization with bounding boxes and class labels.
 
 ### Prerequisites
 To run this project, you need to install the following libraries:
