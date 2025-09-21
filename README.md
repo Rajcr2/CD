@@ -27,6 +27,28 @@ Other Utility Libraries : **Matplotlib**, **glob2**, **tqdm**, **albumentations*
    pip install tqdm
    pip install albumentations
    ```
+### Dataset
+
+- Collected images related to weapons and crime scenarios.
+- Annotated with bounding boxes for:
+  - Gun
+  * Weapon
+  + Crime_Activity
+
+- Data Split :
+  + Training set: 80%
+  + Validation set: 10%
+  + Test set: 10%
+
+### Model
+
+- **Base model :** FasterRCNN_ResNet50_FPN from torchvision.
+- **Transfer Learning :** Pretrained on Pascal-VOC dataset, modified detection head with FastRCNNPredictor for 4 classes (including background).
+- **Training :**
+  • Optimizer: SGD
+  • Epochs: 50
+  • Loss: Classification + Regression (from Faster R-CNN)
+- **Checkpoint :** Saved at outputs/model50.pth.
 
 ### Procedure
 
@@ -61,5 +83,8 @@ Other Utility Libraries : **Matplotlib**, **glob2**, **tqdm**, **albumentations*
 
 https://github.com/user-attachments/assets/26efebec-64fb-4fff-944d-8177aec6a812
 
+### Results 
 
+- **Detection threshold :** 0.8
+- **Qualitative results :** Model successfully detects guns, weapons, and suspicious activities in surveillance frames.
 
